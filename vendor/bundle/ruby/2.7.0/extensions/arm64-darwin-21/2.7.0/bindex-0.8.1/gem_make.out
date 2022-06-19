@@ -1,0 +1,15 @@
+current directory: /Users/hashiuramisato/training5/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/hashiuramisato/.rbenv/versions/2.7.5/bin/ruby -I /Users/hashiuramisato/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20220619-68782-orkmk2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hashiuramisato/training5/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/hashiuramisato/training5/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/hashiuramisato/training5/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220619-68782-1ndrpx7/skiptrace/internal
